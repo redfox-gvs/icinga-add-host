@@ -1,4 +1,7 @@
 ---
+## Gather facts from host to be monitored
+- hosts: monitored
+  tasks: []
 - hosts: monitor2
   sudo: yes
   roles:
