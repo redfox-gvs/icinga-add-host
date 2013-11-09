@@ -1,0 +1,4 @@
+- name: Copy Host Definition
+  template: src=host_def.j2 dest=/etc/icinga/servers/{{ fqdn }}.cfg owner=root group=root mode=0644
+  notify:
+  - restart icinga

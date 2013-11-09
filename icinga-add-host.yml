@@ -1,0 +1,5 @@
+---
+- hosts: monitor2
+  sudo: yes
+  roles:
+    - monitor
