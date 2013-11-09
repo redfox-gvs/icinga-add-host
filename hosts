@@ -1,6 +1,7 @@
 [monitoring]
 monitor1
 monitor2
+
 [monitored]
 server1
 server2
